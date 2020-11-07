@@ -1,0 +1,24 @@
+{
+  "name": "botbox-api",
+  "version": "0.0.0",
+  "description": "Botbox api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Botbox",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6"
+  }
+}
